@@ -1,8 +1,24 @@
 # LSP
-gl for lsp error
 
-:lua vim.lsp.buf.formatting_sync()
-:lua vim.lsp.buf.formatting()
+for lsp error
+```sh
+gl 
+```
+
+
+
+
+# null-s 
+:lua vim.lsp.buf.formatting_sync()    ---deprecated
+
+:lua vim.lsp.buf.format()
+
+for rust, 
+
+```sh
+cargo fmt
+```
+
 
 
 # Neovim from scratch
